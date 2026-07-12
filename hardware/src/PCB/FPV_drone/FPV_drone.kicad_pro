@@ -632,7 +632,7 @@
         "uuid": "24c88111-9493-44b1-9bb2-8bc3d4c09cf9"
       }
     ],
-    "used_designators": "Y2,#PWR30,R25-26",
+    "used_designators": "LED2-3,#PWR61-62",
     "variants": []
   },
   "sheets": [
