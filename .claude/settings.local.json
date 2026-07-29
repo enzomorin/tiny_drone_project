@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(awk *)",
+      "WebFetch(domain:www.10x-aero.com)",
+      "Skill(deep-research)"
+    ]
+  }
+}
