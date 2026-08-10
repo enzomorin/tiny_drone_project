@@ -3122,6 +3122,16 @@
 		)
 		(uuid "cf24566d-59fb-4ec9-b199-26dd192e8e0c")
 	)
+	(text "A revoir peut aucun filtre juste TVS qui est a changer btw"
+		(exclude_from_sim no)
+		(at 81.28 23.876 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f5ac3beb-0c48-496c-8cbf-d27ac460fc18")
+	)
 	(junction
 		(at 85.09 68.58)
 		(diameter 0)
