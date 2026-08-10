@@ -1,0 +1,7 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "Lib") (type "KiCad") (uri "C:/Users/sosoc/GitHub/tiny_drone_project/hardware/src/lib/Schem/Lib.pretty") (options "") (descr ""))
+	(lib (name "Library") (type "KiCad") (uri "C:/Users/sosoc/GitHub/tiny_drone_project/hardware/src/lib/Schem/Lib.pretty/Library.pretty") (options "") (descr ""))
+	(lib (name "Lib") (type "KiCad") (uri "C:/Users/sosoc/GitHub/tiny_drone_project/hardware/src/lib/Schem/Lib.pretty") (options "") (descr ""))
+	(lib (name "Schem") (type "KiCad") (uri "C:/Users/sosoc/GitHub/tiny_drone_project/hardware/src/lib/Schem.pretty") (options "") (descr ""))
+)
