@@ -2032,7 +2032,7 @@
 		)
 		(uuid "b2bfe29c-b6fe-4d3b-88de-8549235c2ba7")
 	)
-	(text "One is powered by an independent LDO"
+	(text "Powered by an independent LDO"
 		(exclude_from_sim no)
 		(at 283.972 16.51 0)
 		(effects
@@ -4645,84 +4645,6 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 269.24 49.53 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "11a7b1b5-8343-43ca-b8bd-819b2852ba8f")
-		(property "Reference" "#PWR086"
-			(at 265.43 49.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 272.034 49.53 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 269.24 49.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 269.24 49.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 269.24 49.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "b38e2c10-a7bc-42e4-9a38-6bdd7ac9f79a")
-		)
-		(instances
-			(project "FPV_drone"
-				(path "/24c88111-9493-44b1-9bb2-8bc3d4c09cf9/d62e7d1f-ec63-430f-90ec-676d8334bd67"
-					(reference "#PWR086")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
 		(at 29.21 45.72 90)
 		(unit 1)
 		(body_style 1)
@@ -4830,7 +4752,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ICM-42688-P:PQFN50P300X250X97-14N"
+		(property "Footprint" "LIB:PQFN50P300X250X97-14N"
 			(at 222.25 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -5043,84 +4965,6 @@
 			(project "FPV_drone"
 				(path "/24c88111-9493-44b1-9bb2-8bc3d4c09cf9/d62e7d1f-ec63-430f-90ec-676d8334bd67"
 					(reference "U3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 194.31 124.46 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "18495090-a36a-466b-976c-793ea81cb86c")
-		(property "Reference" "#PWR095"
-			(at 194.31 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 191.262 120.904 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 194.31 124.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 194.31 124.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 194.31 124.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "96cf3a2e-3542-4fb2-ab04-ef00d692e329")
-		)
-		(instances
-			(project "FPV_drone"
-				(path "/24c88111-9493-44b1-9bb2-8bc3d4c09cf9/d62e7d1f-ec63-430f-90ec-676d8334bd67"
-					(reference "#PWR095")
 					(unit 1)
 				)
 			)
@@ -6478,6 +6322,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 269.24 49.53 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "6777804a-812c-4aed-9bf4-6e14be70f10e")
+		(property "Reference" "#PWR086"
+			(at 265.43 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3V_IMU2"
+			(at 272.034 49.53 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 269.24 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 269.24 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 269.24 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e096a34c-2678-4533-9546-7e67d24f8eb8")
+		)
+		(instances
+			(project "FPV_drone"
+				(path "/24c88111-9493-44b1-9bb2-8bc3d4c09cf9/d62e7d1f-ec63-430f-90ec-676d8334bd67"
+					(reference "#PWR086")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:Earth")
 		(at 152.4 33.02 90)
 		(unit 1)
@@ -6747,7 +6669,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ICM-42688-P:PQFN50P300X250X97-14N"
+		(property "Footprint" "LIB:PQFN50P300X250X97-14N"
 			(at 222.25 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -7234,7 +7156,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LIB:SPA06-003"
 			(at 132.08 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -7625,84 +7547,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 194.31 52.07 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "a41472c9-f27e-4bd6-a600-06b9386fc512")
-		(property "Reference" "#PWR094"
-			(at 194.31 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 191.262 48.514 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 194.31 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 194.31 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 194.31 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "85c7f145-0055-49f3-9cb1-19d1aa71b610")
-		)
-		(instances
-			(project "FPV_drone"
-				(path "/24c88111-9493-44b1-9bb2-8bc3d4c09cf9/d62e7d1f-ec63-430f-90ec-676d8334bd67"
-					(reference "#PWR094")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:Earth")
 		(at 72.39 39.37 0)
 		(unit 1)
@@ -7774,6 +7618,84 @@
 			(project "FPV_drone"
 				(path "/24c88111-9493-44b1-9bb2-8bc3d4c09cf9/d62e7d1f-ec63-430f-90ec-676d8334bd67"
 					(reference "#PWR043")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 194.31 124.46 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b006eccc-989d-4d6c-95ee-670423193ba2")
+		(property "Reference" "#PWR095"
+			(at 194.31 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3V_IMU2"
+			(at 188.214 120.65 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 194.31 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 194.31 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 194.31 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a9364e4b-cf4f-42be-9f04-4f08def406bd")
+		)
+		(instances
+			(project "FPV_drone"
+				(path "/24c88111-9493-44b1-9bb2-8bc3d4c09cf9/d62e7d1f-ec63-430f-90ec-676d8334bd67"
+					(reference "#PWR095")
 					(unit 1)
 				)
 			)
@@ -8289,7 +8211,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SON127P600X500X80-9N-D"
+		(property "Footprint" "LIB:SON127P600X500X80-9N-D"
 			(at 152.4 173.66 0)
 			(hide yes)
 			(show_name no)
@@ -8767,7 +8689,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOT65P210X110-6N"
+		(property "Footprint" "LIB:SOT65P210X110-6N"
 			(at 53.34 127.94 0)
 			(hide yes)
 			(show_name no)
@@ -8961,6 +8883,84 @@
 			(project "FPV_drone"
 				(path "/24c88111-9493-44b1-9bb2-8bc3d4c09cf9/d62e7d1f-ec63-430f-90ec-676d8334bd67"
 					(reference "#PWR087")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 194.31 52.07 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "eef62da4-6ebb-4066-b574-488c1f42d96f")
+		(property "Reference" "#PWR0135"
+			(at 194.31 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3V_IMU2"
+			(at 188.214 48.26 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 194.31 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 194.31 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 194.31 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1acb3e71-8b84-4879-89f4-1bd7d89baf99")
+		)
+		(instances
+			(project "FPV_drone"
+				(path "/24c88111-9493-44b1-9bb2-8bc3d4c09cf9/d62e7d1f-ec63-430f-90ec-676d8334bd67"
+					(reference "#PWR0135")
 					(unit 1)
 				)
 			)

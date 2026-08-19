@@ -1,0 +1,4 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "lib") (type "KiCad") (uri "/home/enzo_44/Documents/GitHub/tiny_drone_project/hardware/src/lib") (options "") (descr ""))
+)

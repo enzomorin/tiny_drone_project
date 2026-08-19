@@ -4,4 +4,6 @@
 	(lib (name "Library") (type "KiCad") (uri "C:/Users/sosoc/GitHub/tiny_drone_project/hardware/src/lib/Schem/Lib.pretty/Library.pretty") (options "") (descr ""))
 	(lib (name "Lib") (type "KiCad") (uri "C:/Users/sosoc/GitHub/tiny_drone_project/hardware/src/lib/Schem/Lib.pretty") (options "") (descr ""))
 	(lib (name "Schem") (type "KiCad") (uri "C:/Users/sosoc/GitHub/tiny_drone_project/hardware/src/lib/Schem.pretty") (options "") (descr ""))
+	(lib (name "footprint") (type "KiCad") (uri "/home/enzo_44/Documents/GitHub/tiny_drone_project/hardware/src/lib/footprint.pretty") (options "") (descr ""))
+	(lib (name "LIB") (type "KiCad") (uri "/home/enzo_44/Documents/GitHub/tiny_drone_project/hardware/src/lib/LIB.pretty") (options "") (descr ""))
 )

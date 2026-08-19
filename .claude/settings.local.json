@@ -3,7 +3,14 @@
     "allow": [
       "Bash(awk *)",
       "WebFetch(domain:www.10x-aero.com)",
-      "Skill(deep-research)"
+      "Skill(deep-research)",
+      "WebSearch",
+      "WebFetch(domain:www.mouser.com)",
+      "WebFetch(domain:www.we-online.com)",
+      "WebFetch(domain:www.coilcraft.com)",
+      "WebFetch(domain:www.st.com)",
+      "WebFetch(domain:datasheets.globalspec.com)",
+      "WebFetch(domain:www.digikey.com)"
     ]
   }
 }
