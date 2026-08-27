@@ -6181,8 +6181,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.5mΩ - 3w"
-			(at 68.58 39.624 0)
+		(property "Value" "10mΩ"
+			(at 64.262 39.624 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6192,7 +6192,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_2512_6332Metric"
 			(at 61.468 39.37 90)
 			(hide yes)
 			(show_name no)
@@ -6509,7 +6509,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_01005_0402Metric"
 			(at 30.988 88.9 90)
 			(hide yes)
 			(show_name no)
@@ -7498,7 +7498,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_01005_0402Metric"
 			(at 30.988 78.74 90)
 			(hide yes)
 			(show_name no)
@@ -8375,7 +8375,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_01005_0402Metric"
 			(at 34.29 82.042 90)
 			(hide yes)
 			(show_name no)

@@ -942,6 +942,244 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "lib:SMBJ12A"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at 10.16 8.89 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "SMBJ12A"
+				(at 10.16 6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "DIONM5436X261N"
+				(at 10.16 -93.65 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Datasheet" "https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diodes/littelfuse_tvs_diode_smbj_datasheet.pdf.pdf"
+				(at 10.16 -193.65 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Description" "Littelfuse SMBJ12A Uni-Directional TVS Diode, 600W peak, 2-Pin DO-214AA"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Height" "2.61"
+				(at 10.16 -393.65 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Mouser Part Number" "576-SMBJ12A"
+				(at 10.16 -493.65 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Littelfuse/SMBJ12A?qs=JJML70Qc14s9i3D6UUa43Q%3D%3D"
+				(at 10.16 -593.65 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Manufacturer_Name" "LITTELFUSE"
+				(at 10.16 -693.65 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Manufacturer_Part_Number" "SMBJ12A"
+				(at 10.16 -793.65 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(symbol "SMBJ12A_1_1"
+				(polyline
+					(pts
+						(xy 4.064 2.54) (xy 5.08 2.032)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 0) (xy 10.16 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -2.032) (xy 5.08 2.032)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -2.032) (xy 6.096 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -2.54) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -2.54) (xy 10.16 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.24 0 180)
+					(length 5.08)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "lib:SMBJ40A"
 			(pin_names
 				(hide yes)
@@ -3266,7 +3504,7 @@
 		)
 		(uuid "0253a7da-0b6d-46a5-a016-095e6d69563e")
 	)
-	(text "500kHz\n0.07% Ripple"
+	(text "500kHz\n25,8% Ripple"
 		(exclude_from_sim no)
 		(at 108.458 58.674 0)
 		(effects
@@ -3278,7 +3516,7 @@
 		)
 		(uuid "1835808c-26fa-4cd6-a5b3-4d53ee6d741f")
 	)
-	(text "Ideal diode multiplexer - 2,08A 56mΩ"
+	(text "Ideal diode multiplexer - 2,98A 56mΩ"
 		(exclude_from_sim no)
 		(at 136.398 80.264 0)
 		(effects
@@ -3288,6 +3526,17 @@
 			)
 		)
 		(uuid "3081492b-bd6e-47cc-a6ed-5c2cea1b5b2e")
+	)
+	(text "Change for 33A\n"
+		(exclude_from_sim no)
+		(at 59.69 49.784 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 0 0 72 1)
+			)
+		)
+		(uuid "3ced62d1-6fbf-4180-b949-89a8627fc3ac")
 	)
 	(text "One dedicate \nto the IMUs"
 		(exclude_from_sim no)
@@ -3301,6 +3550,17 @@
 			(justify left)
 		)
 		(uuid "3f575493-7b77-46fe-90d9-67bb8e41917d")
+	)
+	(text "TVS overvoltage protection"
+		(exclude_from_sim no)
+		(at 129.794 148.59 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 0 0 72 1)
+			)
+		)
+		(uuid "5dbd5409-355c-470a-9047-5b30d68dbc5d")
 	)
 	(text "USB input 5V - ESD protection"
 		(exclude_from_sim no)
@@ -3348,7 +3608,7 @@
 		)
 		(uuid "9d46d698-1ab7-4094-bdba-bd987ea9b093")
 	)
-	(text "500kHz\n0.09% Ripple"
+	(text "500kHz\n42,6% Ripple"
 		(exclude_from_sim no)
 		(at 108.458 103.378 0)
 		(effects
@@ -3365,6 +3625,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "06190921-d1c8-4c72-abff-cd80edc71a68")
+	)
+	(junction
+		(at 224.79 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0c0a4474-242a-4406-8a67-cf03c38dcc20")
 	)
 	(junction
 		(at 38.1 158.75)
@@ -3385,12 +3651,6 @@
 		(uuid "1e439737-4a3f-4ac9-9f6c-7c4615c9d28d")
 	)
 	(junction
-		(at 191.77 104.14)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "26c4bd93-0c42-4de8-b795-0ebadebc57b4")
-	)
-	(junction
 		(at 222.25 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3401,12 +3661,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "350fb582-30e5-42b1-acf2-fa44eff5d3f0")
-	)
-	(junction
-		(at 190.5 104.14)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3a0d7cc5-6c35-45db-82ce-d1ea9fea960a")
 	)
 	(junction
 		(at 53.34 27.94)
@@ -3425,6 +3679,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4596fc2b-f53e-43d1-9255-ae3bad246792")
+	)
+	(junction
+		(at 66.04 40.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "52b56901-a662-49cf-9aed-19cefc4605b7")
 	)
 	(junction
 		(at 198.12 41.91)
@@ -3481,22 +3741,10 @@
 		(uuid "87504236-da42-4976-b7a3-265fc23e9ad2")
 	)
 	(junction
-		(at 66.04 34.29)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8a21e7c1-9828-483d-a41a-c98a4d83fa9b")
-	)
-	(junction
 		(at 78.74 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8db377dd-cb75-48c2-9719-42748c5eaefd")
-	)
-	(junction
-		(at 224.79 104.14)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9631d099-cddb-4a36-9687-604e5ec68ed7")
 	)
 	(junction
 		(at 85.09 124.46)
@@ -3505,10 +3753,10 @@
 		(uuid "9be6a5d5-6af8-4011-9408-656d86a33139")
 	)
 	(junction
-		(at 66.04 39.37)
+		(at 191.77 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "9de9128d-af15-49da-be06-ecccc3f9b00e")
+		(uuid "a1a1eea2-d576-4014-82b3-6c0a6d6d78a6")
 	)
 	(junction
 		(at 93.98 76.2)
@@ -3541,12 +3789,6 @@
 		(uuid "b9dbaed2-63c6-4c8c-abd0-722ac79337db")
 	)
 	(junction
-		(at 226.06 104.14)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "bc9ae90a-14be-47bc-b53f-5cf2e5224564")
-	)
-	(junction
 		(at 41.91 133.35)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3565,6 +3807,12 @@
 		(uuid "c481aa3f-810d-44aa-9ea5-f128a5926291")
 	)
 	(junction
+		(at 191.77 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c5a00e11-9194-4464-8d7b-314ec9cf234f")
+	)
+	(junction
 		(at 203.2 44.45)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3581,6 +3829,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e6bf11ef-8b99-4822-b943-53b1034e4511")
+	)
+	(junction
+		(at 66.04 33.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ed44dae5-6fcd-4661-8d92-62c25b15963b")
 	)
 	(junction
 		(at 191.77 119.38)
@@ -3622,13 +3876,13 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 95.25) (xy 190.5 88.9)
+			(xy 189.23 93.98) (xy 191.77 93.98)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0120ea77-82de-42f7-930b-8cc34e633f19")
+		(uuid "03394ccd-5313-4bd3-8da8-647bb7321d56")
 	)
 	(wire
 		(pts
@@ -3639,6 +3893,16 @@
 			(type default)
 		)
 		(uuid "05817928-6915-49f2-8117-3513d24b20d3")
+	)
+	(polyline
+		(pts
+			(xy 115.57 196.85) (xy 176.53 196.85)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "07ca3d55-fc4f-4aff-852f-7500f50083c1")
 	)
 	(wire
 		(pts
@@ -3679,6 +3943,16 @@
 			(type default)
 		)
 		(uuid "0d1751b9-8087-4228-92f4-c91171f3fb41")
+	)
+	(wire
+		(pts
+			(xy 66.04 33.02) (xy 66.04 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d3db7e8-4a7f-4aeb-b892-fa3530461090")
 	)
 	(wire
 		(pts
@@ -3792,16 +4066,6 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 34.29) (xy 66.04 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "15c1f444-c522-4886-a5d4-89d0219fe60b")
-	)
-	(wire
-		(pts
 			(xy 220.98 124.46) (xy 222.25 124.46)
 		)
 		(stroke
@@ -3879,6 +4143,16 @@
 			(type default)
 		)
 		(uuid "1d10fe97-4ee2-4079-9ee8-2d668fccef92")
+	)
+	(wire
+		(pts
+			(xy 137.16 179.07) (xy 137.16 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e3336ad-bf9b-411b-8c2c-89fd4eb939a4")
 	)
 	(wire
 		(pts
@@ -3979,16 +4253,6 @@
 			(type default)
 		)
 		(uuid "2cf5c908-287a-4803-ba94-35d2c0653d4b")
-	)
-	(wire
-		(pts
-			(xy 190.5 104.14) (xy 191.77 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2f95d1f0-edbd-4352-80dc-3954f0e72cd1")
 	)
 	(wire
 		(pts
@@ -4099,6 +4363,16 @@
 			(type default)
 		)
 		(uuid "3ecdd64e-87c8-40c3-a73e-09fbea84e01d")
+	)
+	(wire
+		(pts
+			(xy 191.77 93.98) (xy 191.77 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "403899ad-6181-43cd-99a5-f13e66a5519d")
 	)
 	(wire
 		(pts
@@ -4280,16 +4554,6 @@
 		)
 		(uuid "5add62e9-c7f2-4305-b914-1404a727b971")
 	)
-	(wire
-		(pts
-			(xy 226.06 104.14) (xy 227.33 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5bbd885f-8ac1-445d-88e1-58e55ffa894e")
-	)
 	(polyline
 		(pts
 			(xy 115.57 144.78) (xy 284.48 144.78)
@@ -4302,7 +4566,17 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 104.14) (xy 190.5 104.14)
+			(xy 191.77 104.14) (xy 193.04 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ce473e7-666e-475e-8541-34aa03a1c5fa")
+	)
+	(wire
+		(pts
+			(xy 181.61 104.14) (xy 191.77 104.14)
 		)
 		(stroke
 			(width 0)
@@ -4319,16 +4593,6 @@
 			(type default)
 		)
 		(uuid "602be041-c0c1-4904-bbaa-423c14f353ad")
-	)
-	(wire
-		(pts
-			(xy 66.04 34.29) (xy 74.93 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6111b68a-e86b-4c11-b246-c05ed82a9d61")
 	)
 	(wire
 		(pts
@@ -4372,23 +4636,13 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 39.37) (xy 66.04 39.37)
+			(xy 157.48 162.56) (xy 157.48 163.83)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "65ebb04e-0745-4d45-92b2-69e3b0fb04bd")
-	)
-	(wire
-		(pts
-			(xy 224.79 104.14) (xy 226.06 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "69208777-b923-4d46-a79a-5a3b13bbf497")
+		(uuid "67f5dc4f-966f-48ff-b783-4ea7f47f7f50")
 	)
 	(wire
 		(pts
@@ -4432,7 +4686,7 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 102.87) (xy 190.5 104.14)
+			(xy 191.77 102.87) (xy 191.77 104.14)
 		)
 		(stroke
 			(width 0)
@@ -4502,16 +4756,6 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 104.14) (xy 193.04 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "735bfa87-ad71-49eb-8e69-687bb379877d")
-	)
-	(wire
-		(pts
 			(xy 222.25 129.54) (xy 227.33 129.54)
 		)
 		(stroke
@@ -4519,16 +4763,6 @@
 			(type default)
 		)
 		(uuid "73caff61-c554-49d5-aff9-9bfbcd92da3d")
-	)
-	(wire
-		(pts
-			(xy 226.06 87.63) (xy 226.06 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7e8c2f8b-be7e-4f2e-9244-a46d46c3260f")
 	)
 	(wire
 		(pts
@@ -4552,6 +4786,16 @@
 	)
 	(wire
 		(pts
+			(xy 59.69 43.18) (xy 59.69 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80b81426-603b-4f60-8d4e-dd9d618c1e30")
+	)
+	(wire
+		(pts
 			(xy 77.47 166.37) (xy 77.47 165.1)
 		)
 		(stroke
@@ -4562,7 +4806,17 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 88.9) (xy 190.5 88.9)
+			(xy 77.47 39.37) (xy 77.47 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8475a635-ebd4-4911-b212-3f7941b4f3e9")
+	)
+	(wire
+		(pts
+			(xy 203.2 88.9) (xy 191.77 88.9)
 		)
 		(stroke
 			(width 0)
@@ -4592,6 +4846,16 @@
 	)
 	(wire
 		(pts
+			(xy 66.04 33.02) (xy 77.47 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "874a1d20-05cb-4749-9cd4-32a25a086b01")
+	)
+	(wire
+		(pts
 			(xy 38.1 166.37) (xy 41.91 166.37)
 		)
 		(stroke
@@ -4602,16 +4866,6 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 39.37) (xy 74.93 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8caa27b0-d238-49c8-86fe-b721df1f3c9f")
-	)
-	(wire
-		(pts
 			(xy 43.18 177.8) (xy 43.18 184.15)
 		)
 		(stroke
@@ -4619,16 +4873,6 @@
 			(type default)
 		)
 		(uuid "8d4fd5bb-2849-465a-b7e3-f0e43da70005")
-	)
-	(wire
-		(pts
-			(xy 59.69 27.94) (xy 59.69 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8d7fefdc-46d9-473a-8d81-89bbe20a3e58")
 	)
 	(polyline
 		(pts
@@ -4689,6 +4933,16 @@
 			(type dash)
 		)
 		(uuid "9656144d-729d-4be4-8f60-f3f9603154e1")
+	)
+	(wire
+		(pts
+			(xy 77.47 33.02) (xy 77.47 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9845247f-ca99-4c08-9750-3954cc7ffa1c")
 	)
 	(wire
 		(pts
@@ -4832,6 +5086,36 @@
 	)
 	(wire
 		(pts
+			(xy 226.06 104.14) (xy 224.79 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac157624-14f2-49d6-94e9-ac1b0b848c0c")
+	)
+	(wire
+		(pts
+			(xy 66.04 40.64) (xy 77.47 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "acdd180f-b419-4c1f-8e7c-88cb9ccc4603")
+	)
+	(wire
+		(pts
+			(xy 59.69 33.02) (xy 66.04 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad7900cf-0dfa-46d0-9c3c-a27d2beee08b")
+	)
+	(wire
+		(pts
 			(xy 40.64 121.92) (xy 41.91 121.92)
 		)
 		(stroke
@@ -4892,13 +5176,23 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 105.41) (xy 191.77 104.14)
+			(xy 191.77 88.9) (xy 191.77 93.98)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b518a7fe-10e2-44d4-a3e4-29242387f452")
+		(uuid "b440479f-419c-4709-b296-141cdde9b997")
+	)
+	(wire
+		(pts
+			(xy 66.04 39.37) (xy 66.04 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6a1da90-ce76-47a7-a296-b82b8a50c8b5")
 	)
 	(wire
 		(pts
@@ -5002,6 +5296,16 @@
 	)
 	(wire
 		(pts
+			(xy 189.23 105.41) (xy 191.77 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be87622c-83e0-4cf8-ae4a-a236dc271eca")
+	)
+	(wire
+		(pts
 			(xy 83.82 68.58) (xy 93.98 68.58)
 		)
 		(stroke
@@ -5029,16 +5333,6 @@
 			(type default)
 		)
 		(uuid "c19bbad3-9fda-4658-940d-d1acdde2624d")
-	)
-	(wire
-		(pts
-			(xy 226.06 102.87) (xy 226.06 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c1ed011d-a708-4b06-9154-3ad0d0fdf7ab")
 	)
 	(wire
 		(pts
@@ -5079,6 +5373,16 @@
 			(type default)
 		)
 		(uuid "c7e38687-757e-44ea-b93c-0b0c8728ef31")
+	)
+	(wire
+		(pts
+			(xy 157.48 179.07) (xy 157.48 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8531c5e-7b55-4127-b9b0-3db74492e1a4")
 	)
 	(wire
 		(pts
@@ -5212,16 +5516,6 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 43.18) (xy 59.69 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d557bb13-e765-41a3-99ba-25f1b901beed")
-	)
-	(wire
-		(pts
 			(xy 241.3 41.91) (xy 241.3 40.64)
 		)
 		(stroke
@@ -5229,6 +5523,16 @@
 			(type default)
 		)
 		(uuid "d7e3532d-0cb0-4e28-9131-1c96d07dcfe5")
+	)
+	(wire
+		(pts
+			(xy 59.69 27.94) (xy 59.69 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d906b937-fbc6-48f7-8e91-a049d11d087c")
 	)
 	(wire
 		(pts
@@ -5362,6 +5666,26 @@
 	)
 	(wire
 		(pts
+			(xy 137.16 162.56) (xy 137.16 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e84fc593-3725-4242-8c86-d2c58dadad54")
+	)
+	(wire
+		(pts
+			(xy 189.23 105.41) (xy 189.23 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb675550-4ff2-4af2-bc9d-81d56ab3bd89")
+	)
+	(wire
+		(pts
 			(xy 78.74 76.2) (xy 78.74 74.93)
 		)
 		(stroke
@@ -5369,6 +5693,16 @@
 			(type default)
 		)
 		(uuid "ecdfbc11-715b-44ac-8d5e-db34ebe597b7")
+	)
+	(wire
+		(pts
+			(xy 59.69 40.64) (xy 66.04 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef18a346-adac-43f7-8030-46af24ddee3c")
 	)
 	(wire
 		(pts
@@ -5459,6 +5793,16 @@
 			(type dash)
 		)
 		(uuid "fd4dcdfe-64f0-43a3-8945-5360c0822949")
+	)
+	(polyline
+		(pts
+			(xy 176.53 196.85) (xy 176.53 144.78)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "fed537d8-e1a5-4a9e-8798-7c060f7a2b48")
 	)
 	(label "DN1"
 		(at 154.94 50.8 180)
@@ -6016,88 +6360,6 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_SL_Devices:Capacitor_NP")
-		(at 66.04 36.83 90)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "13e075df-c5de-4b7b-934e-e4df141b966c")
-		(property "Reference" "C17"
-			(at 64.262 32.766 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1uF-50V"
-			(at 60.452 41.656 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm"
-			(at 69.85 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 66.04 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized Capacitor"
-			(at 66.04 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "450b62a4-b40b-4e7a-ba0c-d77f47472324")
-		)
-		(pin "1"
-			(uuid "d308da8c-2b62-41d9-ba57-0b0eaccd0a96")
-		)
-		(instances
-			(project "FPV_drone"
-				(path "/24c88111-9493-44b1-9bb2-8bc3d4c09cf9/bd4c7cb4-528e-4c89-8fa7-c2f8232dacaf"
-					(reference "C17")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:Earth")
 		(at 40.64 78.74 270)
 		(unit 1)
@@ -6492,7 +6754,7 @@
 	)
 	(symbol
 		(lib_id "PCM_SL_Devices:Capacitor_NP")
-		(at 74.93 36.83 90)
+		(at 66.04 36.83 90)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -6503,7 +6765,7 @@
 		(dnp no)
 		(uuid "1bc04a86-ee5d-4335-b364-84c2981a21e6")
 		(property "Reference" "C44"
-			(at 72.644 32.766 90)
+			(at 63.754 31.496 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6513,8 +6775,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "22uF-50V"
-			(at 69.596 41.656 90)
+		(property "Value" "100nF-50V"
+			(at 60.706 42.418 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6525,7 +6787,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm"
-			(at 78.74 36.83 0)
+			(at 69.85 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6536,7 +6798,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 74.93 36.83 0)
+			(at 66.04 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6547,7 +6809,7 @@
 			)
 		)
 		(property "Description" "Unpolarized Capacitor"
-			(at 74.93 36.83 0)
+			(at 66.04 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6670,7 +6932,7 @@
 				)
 			)
 		)
-		(property "Value" "10uH"
+		(property "Value" "22uH"
 			(at 74.93 77.47 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6691,7 +6953,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.we-online.com/catalog/datasheet/74438367100.pdf"
+		(property "Datasheet" "https://componentsearchengine.com/Datasheets/1/IHLP2525CZER220M11.pdf"
 			(at 74.93 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -6702,7 +6964,7 @@
 				)
 			)
 		)
-		(property "Description" "WE-MAPI SMT Power Inductor Size 5030; L = 10 H +/-20%; IR = 4.3 A; Isat = 6.6 A; RDC = 70.2 m"
+		(property "Description" "Inductor IHLP SMD 2525 22uH"
 			(at 74.93 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -6723,6 +6985,88 @@
 			(project "FPV_drone"
 				(path "/24c88111-9493-44b1-9bb2-8bc3d4c09cf9/bd4c7cb4-528e-4c89-8fa7-c2f8232dacaf"
 					(reference "L1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_SL_Devices:Capacitor_NP")
+		(at 77.47 36.83 90)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "1e872d53-b7c0-44ee-8324-c96dfdb87661")
+		(property "Reference" "C55"
+			(at 75.184 31.75 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "22uF-50V"
+			(at 72.136 42.418 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm"
+			(at 81.28 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 77.47 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized Capacitor"
+			(at 77.47 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "fb9733e9-ff5a-4475-b315-31a96930ae10")
+		)
+		(pin "1"
+			(uuid "3a09c177-0c30-45c6-8a4b-0d9126f24fd8")
+		)
+		(instances
+			(project "FPV_drone"
+				(path "/24c88111-9493-44b1-9bb2-8bc3d4c09cf9/bd4c7cb4-528e-4c89-8fa7-c2f8232dacaf"
+					(reference "C55")
 					(unit 1)
 				)
 			)
@@ -6804,83 +7148,6 @@
 			(project "FPV_drone"
 				(path "/24c88111-9493-44b1-9bb2-8bc3d4c09cf9/bd4c7cb4-528e-4c89-8fa7-c2f8232dacaf"
 					(reference "C21")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:Earth")
-		(at 226.06 86.36 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "230c72ce-3190-4adb-bc28-b6fed49832b3")
-		(property "Reference" "#PWR0142"
-			(at 226.06 80.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Earth"
-			(at 226.06 82.804 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 226.06 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 226.06 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"Earth\""
-			(at 226.06 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "ee072e51-2edb-4dba-bdb8-5ef2a0d0d367")
-		)
-		(instances
-			(project "FPV_drone"
-				(path "/24c88111-9493-44b1-9bb2-8bc3d4c09cf9/bd4c7cb4-528e-4c89-8fa7-c2f8232dacaf"
-					(reference "#PWR0142")
 					(unit 1)
 				)
 			)
@@ -7126,6 +7393,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 137.16 162.56 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "27977b56-a062-46ed-9982-cbca216a9ee7")
+		(property "Reference" "#PWR078"
+			(at 137.16 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 135.128 158.75 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 137.16 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 137.16 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 137.16 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a6d84366-94fe-4b24-b0dc-2fdc2b4d21db")
+		)
+		(instances
+			(project "FPV_drone"
+				(path "/24c88111-9493-44b1-9bb2-8bc3d4c09cf9/bd4c7cb4-528e-4c89-8fa7-c2f8232dacaf"
+					(reference "#PWR078")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "PCM_SL_Devices:Capacitor_NP")
 		(at 40.64 72.39 270)
 		(unit 1)
@@ -7207,6 +7552,83 @@
 		)
 	)
 	(symbol
+		(lib_id "power:Earth")
+		(at 137.16 180.34 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "2dd1942c-2ffb-4dfb-b4ed-0d4fed0176ab")
+		(property "Reference" "#PWR0144"
+			(at 137.16 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Earth"
+			(at 137.16 183.896 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 137.16 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 137.16 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"Earth\""
+			(at 137.16 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "103c6a88-835d-4ae4-b604-8e84dde23d57")
+		)
+		(instances
+			(project "FPV_drone"
+				(path "/24c88111-9493-44b1-9bb2-8bc3d4c09cf9/bd4c7cb4-528e-4c89-8fa7-c2f8232dacaf"
+					(reference "#PWR0144")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 95.25 76.2 270)
 		(unit 1)
@@ -7279,6 +7701,149 @@
 			(project "FPV_drone"
 				(path "/24c88111-9493-44b1-9bb2-8bc3d4c09cf9/bd4c7cb4-528e-4c89-8fa7-c2f8232dacaf"
 					(reference "#PWR033")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lib:SMBJ6.0A-TR")
+		(at 137.16 163.83 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "3950c109-2b4c-4d7f-a7b5-ae8aaee3469e")
+		(property "Reference" "D4"
+			(at 126.492 171.704 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SMBJ6.0A-TR"
+			(at 121.158 173.99 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LIB:SMBJ12A"
+			(at 43.51 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Datasheet" "https://www.st.com/resource/en/datasheet/smbj58ca.pdf"
+			(at -56.49 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Description" "TVS Diode Uni-Directional SMBJ6.0A-TR 13.7V, 600W, SMB 2-Pin"
+			(at 137.16 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "2.45"
+			(at -256.49 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Mouser Part Number" "511-SMBJ6.0A"
+			(at -356.49 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/STMicroelectronics/SMBJ6.0A-TR?qs=1H%252BfedfBQSMRid077iS1og%3D%3D"
+			(at -456.49 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Manufacturer_Name" "STMicroelectronics"
+			(at -556.49 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SMBJ6.0A-TR"
+			(at -656.49 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(pin "2"
+			(uuid "a78301c5-876d-449f-9917-f5e39dfd7ba6")
+		)
+		(pin "1"
+			(uuid "95748aac-39a2-4458-9b4a-bf0f9593fcb6")
+		)
+		(instances
+			(project "FPV_drone"
+				(path "/24c88111-9493-44b1-9bb2-8bc3d4c09cf9/bd4c7cb4-528e-4c89-8fa7-c2f8232dacaf"
+					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -7534,7 +8099,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 227.33 104.14 270)
+		(at 226.06 104.14 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7544,7 +8109,7 @@
 		(dnp no)
 		(uuid "3d26a219-9eb6-4eb4-9baa-78d7afe877c4")
 		(property "Reference" "#PWR046"
-			(at 223.52 104.14 0)
+			(at 222.25 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7555,7 +8120,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 230.124 104.14 90)
+			(at 228.854 104.14 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7566,7 +8131,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 227.33 104.14 0)
+			(at 226.06 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7577,7 +8142,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 227.33 104.14 0)
+			(at 226.06 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7588,7 +8153,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 227.33 104.14 0)
+			(at 226.06 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8323,7 +8888,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "30.1kΩ"
+		(property "Value" "36kΩ"
 			(at 234.188 123.952 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9345,7 +9910,7 @@
 				)
 			)
 		)
-		(property "Value" "10uH"
+		(property "Value" "22uH"
 			(at 74.93 120.65 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9366,7 +9931,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.we-online.com/catalog/datasheet/74438367100.pdf"
+		(property "Datasheet" "https://componentsearchengine.com/Datasheets/1/IHLP2525CZER220M11.pdf"
 			(at 74.93 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -9377,7 +9942,7 @@
 				)
 			)
 		)
-		(property "Description" "XGL6030-103"
+		(property "Description" "Inductor IHLP SMD 2525 22uH"
 			(at 74.93 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -9561,7 +10126,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 190.5 99.06 0)
+		(at 191.77 99.06 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9571,7 +10136,7 @@
 		(dnp no)
 		(uuid "7bfe9c02-9c82-4b36-8c5f-008a8471a40d")
 		(property "Reference" "R27"
-			(at 190.5 100.33 90)
+			(at 191.77 100.33 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9581,8 +10146,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "5kΩ"
-			(at 192.024 99.06 0)
+		(property "Value" "20kΩ"
+			(at 193.294 99.06 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9593,7 +10158,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 188.722 99.06 90)
+			(at 189.992 99.06 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9604,7 +10169,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 190.5 99.06 0)
+			(at 191.77 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9615,7 +10180,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 190.5 99.06 0)
+			(at 191.77 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10594,7 +11159,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "23.7kΩ"
+		(property "Value" "3.65kΩ"
 			(at 193.294 109.728 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10654,8 +11219,8 @@
 		)
 	)
 	(symbol
-		(lib_id "lib:SMBJ6.0A-TR")
-		(at 226.06 102.87 90)
+		(lib_id "power:+9V")
+		(at 157.48 162.56 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10663,9 +11228,20 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "9eaf0481-b764-40b9-8637-949a76cd6572")
-		(property "Reference" "D3"
-			(at 231.14 95.25 90)
+		(uuid "a1c23ba9-0079-49e1-ab0b-534454b44fe3")
+		(property "Reference" "#PWR06"
+			(at 157.48 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+10V"
+			(at 154.686 159.004 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10675,43 +11251,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "SMBJ6.0A-TR"
-			(at 241.554 93.472 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "LIB:SMBJ12A"
-			(at 319.71 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Datasheet" "https://www.st.com/resource/en/datasheet/smbj58ca.pdf"
-			(at 419.71 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Description" "TVS Diode Uni-Directional SMBJ6.0A-TR 13.7V, 600W, SMB 2-Pin"
-			(at 226.06 102.87 0)
+		(property "Footprint" ""
+			(at 157.48 162.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10721,8 +11262,8 @@
 				)
 			)
 		)
-		(property "Height" "2.45"
-			(at 619.71 92.71 0)
+		(property "Datasheet" ""
+			(at 157.48 162.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10730,11 +11271,10 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
 			)
 		)
-		(property "Mouser Part Number" "511-SMBJ6.0A"
-			(at 719.71 92.71 0)
+		(property "Description" "Power symbol creates a global label with name \"+9V\""
+			(at 157.48 162.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10742,55 +11282,15 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
 			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/STMicroelectronics/SMBJ6.0A-TR?qs=1H%252BfedfBQSMRid077iS1og%3D%3D"
-			(at 819.71 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Manufacturer_Name" "STMicroelectronics"
-			(at 919.71 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Manufacturer_Part_Number" "SMBJ6.0A-TR"
-			(at 1019.71 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(pin "2"
-			(uuid "1a802252-d91a-49d1-aa12-2604a1505eec")
 		)
 		(pin "1"
-			(uuid "b2631249-dc61-48ab-b54d-697b8962c706")
+			(uuid "0cea8eb0-5cca-4b34-8cbb-e16769befe08")
 		)
 		(instances
 			(project "FPV_drone"
 				(path "/24c88111-9493-44b1-9bb2-8bc3d4c09cf9/bd4c7cb4-528e-4c89-8fa7-c2f8232dacaf"
-					(reference "D3")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -11516,6 +12016,83 @@
 		)
 	)
 	(symbol
+		(lib_id "power:Earth")
+		(at 157.48 180.34 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "cc6bfd92-2830-4af7-8d4b-13901b34ba3d")
+		(property "Reference" "#PWR0143"
+			(at 157.48 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Earth"
+			(at 157.48 184.15 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 157.48 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 157.48 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"Earth\""
+			(at 157.48 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "fae7c5f0-e0ff-4590-b24a-476b3c120966")
+		)
+		(instances
+			(project "FPV_drone"
+				(path "/24c88111-9493-44b1-9bb2-8bc3d4c09cf9/bd4c7cb4-528e-4c89-8fa7-c2f8232dacaf"
+					(reference "#PWR0143")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "PCM_SL_Devices:Capacitor_NP")
 		(at 224.79 109.22 270)
 		(unit 1)
@@ -12016,6 +12593,149 @@
 			(project "FPV_drone"
 				(path "/24c88111-9493-44b1-9bb2-8bc3d4c09cf9/bd4c7cb4-528e-4c89-8fa7-c2f8232dacaf"
 					(reference "C30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lib:SMBJ12A")
+		(at 157.48 163.83 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "da02d194-2716-4e6a-8fb3-60447190c710")
+		(property "Reference" "D2"
+			(at 148.59 171.704 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SMBJ12A"
+			(at 145.288 173.99 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LIB:DIONM5436X261N"
+			(at 63.83 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Datasheet" "https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diodes/littelfuse_tvs_diode_smbj_datasheet.pdf.pdf"
+			(at -36.17 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Description" "Littelfuse SMBJ12A Uni-Directional TVS Diode, 600W peak, 2-Pin DO-214AA"
+			(at 157.48 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "2.61"
+			(at -236.17 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Mouser Part Number" "576-SMBJ12A"
+			(at -336.17 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Littelfuse/SMBJ12A?qs=JJML70Qc14s9i3D6UUa43Q%3D%3D"
+			(at -436.17 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Manufacturer_Name" "LITTELFUSE"
+			(at -536.17 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SMBJ12A"
+			(at -636.17 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(pin "1"
+			(uuid "09439f8c-1ac4-46e9-bf22-af12902eb781")
+		)
+		(pin "2"
+			(uuid "e92dce56-ba5a-4da1-8a65-f3f3c548e185")
+		)
+		(instances
+			(project "FPV_drone"
+				(path "/24c88111-9493-44b1-9bb2-8bc3d4c09cf9/bd4c7cb4-528e-4c89-8fa7-c2f8232dacaf"
+					(reference "D2")
 					(unit 1)
 				)
 			)
